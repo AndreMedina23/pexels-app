@@ -28,10 +28,10 @@ const PhotoList = () => {
 
   return (
     <div>
-      <h1>Lista de Fotos</h1>
+      <h1>Buscador de Imágenes</h1>
       <input
         type="text"
-        placeholder="Buscar fotos..."
+        placeholder="Buscar imágenes..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
