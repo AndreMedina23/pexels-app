@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import PhotoList from './Components/PhotoList';
 import './App.css'; // Importa el archivo CSS
