@@ -8,9 +8,7 @@ const PhotoList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `https://api.pexels.com/v1/search?query=${searchTerm}`,
-          {
+        const response = await axios.get(`https://api.pexels.com/v1/search?query=${searchTerm}`,{
             headers: {
               Authorization: 'CBj46ptnDt36Mf8gOgdhqQ7s1z8BqIYzI2OshgSWvS8rLiuvGjM6kviG',
             },
